@@ -1,0 +1,55 @@
+body {
+    background-color: #5CDB95;
+    margin: 0;
+}
+
+.main {
+    background-color: #5CDB95;
+    height: 400px;
+    width: 100%;
+}
+
+.top {
+    font-family: "Nova";
+    font-size: 100px;
+    color: #EDF5E1;
+    position: relative;
+    left: 15%;
+    top: 225px;
+}
+
+p1 {
+    font-family: "Nova";
+    font-size: 100px;
+    color: #EDF5E1;
+    position: relative;
+    top: -15px;
+}
+
+p2 {
+    font-family: "Nova";
+    font-size: 30px;
+    color: #EDF5E1;
+    position: relative;
+    top: -100px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #EDF5E1;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+
+.about {
+    background-color: white;
+}
+
+.square1 {
+    height: 50px;
+    width: 50px;
+    background-color: #4CBB17;
+}

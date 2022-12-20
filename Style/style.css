@@ -1,0 +1,90 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+#header {
+    margin: 0;
+    padding: 0;
+}
+#education {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+}
+#experience {
+    background-color: grey;
+    height: 600px;
+    width: 100%;
+}
+#skills {
+    background-color: black;
+    height: 200px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Copperplate;
+    font-size: small;
+}
+h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: Copperplate;
+}
+h4 {
+    font-family: Copperplate;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    margin: 0;
+}
+
+h6 {
+    font-family: Copperplate;
+    color: antiquewhite;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 30px;
+    margin: 0;
+}
+
+h7 {
+
+}
+
+
+.areas button {
+    text-align: center;
+    background-color: transparent; /* Green background */
+    border: 1px solid black; /* Green border */
+    color: black; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    margin: 0;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.areas:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.areas button:hover {
+    background-color: #3e8e41;
+}
+
+.bca {
+    text-align: left;
+}
