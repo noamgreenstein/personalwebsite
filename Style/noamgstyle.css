@@ -14,7 +14,7 @@ body {
     background-color: #5CDB95;
     height: 700px;
     width: 100%;
-    padding: 0;
+    padding-top: 20px;
     margin: 0;
 }
 
@@ -121,4 +121,56 @@ h3 {
     text-align: center;
     font-size: 40px;
     color: #EDF5E1;
+}
+
+.circle1 {
+    height: 70%;
+    width: 35%;
+    background-color: #05386B;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 7.5%;
+    padding-right:0;
+    margin-top: 0;
+}
+
+.circle1:hover {
+    -ms-transform: scale(1.25); /* IE 9 */
+    -webkit-transform: scale(1.25); /* Safari 3-8 */
+    transform: scale(1.25);
+}
+
+p2 {
+    color: #EDF5E1;
+    font-size: 20px;
+    position: relative;
+    top: 33%;
+    left: 3%;
+}
+p3 {
+    color: #EDF5E1;
+    font-size: 20px;
+    position: relative;
+    top: 33%;
+    left: 3%;
+}
+
+p3 p4 {
+    font-size: 10px;
+    visibility: hidden;
+    width: 120px;
+    background-color: #379683;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+p3:hover p4 {
+    visibility: visible;
 }
