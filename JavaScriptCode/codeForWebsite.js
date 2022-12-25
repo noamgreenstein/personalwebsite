@@ -1,13 +1,22 @@
-// const ng = document.querySelector("p1");
-// ng.innerHTML = ng.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-// anime.timeline()
-//     .add({
-//              targets: 'p1 .letter',
-//              opacity: [0,1],
-//              easing: "easeInOutQuad",
-//              duration: 2250,
-//              delay: (el, i) => 150 * (i+1)
-//          })
+let myButton = document.getElementById("myBtn");
+console.log("hello");
+window.onscroll = function (){scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        myButton.style.display = "block";
+        console.log("hello1");
+    }
+    else {
+        myButton.style.display = "none";
+        console.log("hello2");
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 
 

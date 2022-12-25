@@ -1,7 +1,17 @@
+/*elements*/
 body {
     background-color: #5CDB95;
 }
 
+a {
+    text-decoration: none;
+    color: #05386B;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+/*ids*/
 #header {
     background-color: #5CDB95;
     height: 650px;
@@ -39,40 +49,15 @@ body {
     height: 700px;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin-bottom: 200px;
 }
 
 #work {
     background-color: #5CDB95;
-    height: 700px;
+    height: 1000px;
     width: 100%;
     padding: 0;
     margin: 0;
-}
-
-.name {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-h1 {
-    padding-left: 15%;
-    padding-top: 10%;
-    font-size: 80px;
-    color: #EDF5E1;
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-
-h2 {
-    margin-top: -2%;
-    padding-top: 0;
-    padding-left: 15%;
-    font-size: 80px;
-    color: #EDF5E1;
-    padding-bottom: 0;
-    margin-bottom: -2%;
 }
 
 #sections {
@@ -81,12 +66,50 @@ h2 {
     width: 100%
 }
 
-p1 {
-    padding-left: 15%;
+#myBtn {
+    display: none;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
     color: #EDF5E1;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
     font-size: 25px;
-    padding-right: 0;
-    margin-right: 0;
+}
+
+#myBtn:hover {
+    background-color: #8EE4AF;
+}
+
+/*classes*/
+.name {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.circle1 {
+    height: 70%;
+    width: 35%;
+    background-color: #05386B;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5%;
+    margin-left: 7.5%;
+    padding-right:0;
+    margin-top: 0;
+}
+
+.circle1:hover {
+    -ms-transform: scale(1.25); /* IE 9 */
+    -webkit-transform: scale(1.25); /* Safari 3-8 */
+    transform: scale(1.25);
 }
 
 .dot {
@@ -101,12 +124,16 @@ p1 {
     padding: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #05386B;
-    font-size: 25px;
-    padding: 0;
+.smalldot {
+    height: 2px;
+    width: 2px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: -2px;
     margin: 0;
+    padding: 0;
 }
 
 .square1 {
@@ -136,6 +163,68 @@ a {
     transform: scale(1.1);
 }
 
+.pic {
+    padding-left: 5%;
+}
+
+.bigcircle {
+    height: 100%;
+    width: 50%;
+    background-color: #05386B;
+    border-radius: 50%;
+    margin-left: 25%;
+    padding-left: 0;
+}
+
+.bigcircle:hover {
+    -ms-transform: scale(1.25); /* IE 9 */
+    -webkit-transform: scale(1.25); /* Safari 3-8 */
+    transform: scale(1.25);
+}
+
+.rectangle {
+    height: 200px;
+    width: 80%;
+    background-color: #05386B;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.floating-menu {
+    font-family: sans-serif;
+    background: #379683;
+    padding: 5px;;
+    width: 130px;
+    z-index: 100;
+    position: fixed;
+}
+.floating-menu a,
+.floating-menu h3 {
+    font-size: 0.9em;
+    display: inline-block;
+    margin: 0 0.5em;
+    color: #EDF5E1;
+}
+/*headers*/
+h1 {
+    padding-left: 15%;
+    padding-top: 10%;
+    font-size: 80px;
+    color: #EDF5E1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: -2%;
+    padding-top: 0;
+    padding-left: 15%;
+    font-size: 80px;
+    color: #EDF5E1;
+    padding-bottom: 0;
+    margin-bottom: -2%;
+}
+
 h3 {
     padding-top: 35px;
     text-align: center;
@@ -148,6 +237,8 @@ h4 {
     color: #EDF5E1;
     text-align: left;
     padding-left: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 h5 {
@@ -159,28 +250,20 @@ h5 {
     margin-bottom: 0;
 }
 
-p6 {
+h6 {
+    font-size: 30px;
     color: #EDF5E1;
-    font-size: 15px;
-    margin-left: 5px;
+    text-align: center;
+    padding-left: 10px;
 }
 
-.circle1 {
-    height: 70%;
-    width: 35%;
-    background-color: #05386B;
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 5%;
-    margin-left: 7.5%;
-    padding-right:0;
-    margin-top: 0;
-}
-
-.circle1:hover {
-    -ms-transform: scale(1.25); /* IE 9 */
-    -webkit-transform: scale(1.25); /* Safari 3-8 */
-    transform: scale(1.25);
+/*paragraphs*/
+p1 {
+    padding-left: 15%;
+    color: #EDF5E1;
+    font-size: 25px;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 p2 {
@@ -217,6 +300,17 @@ p3:hover p4 {
     visibility: visible;
 }
 
-.ip {
-    padding-left: 5%;
+
+p5 {
+    color: #EDF5E1;
+    font-size: 15px;
+    margin-left: 5px;
 }
+
+p6 {
+    color: #EDF5E1;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
