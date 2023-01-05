@@ -1,0 +1,23 @@
+.condensed {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.regular {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.gh {
+    background-image:url('Images/github-mark.png');
+}
+
+.ghw {
+    background-image:url('Images/github-mark-white.png');
+}
+
+.li {
+    background-image:url('Images/linkedin-icon-1-logo-png-transparent.png');
+}
+
+.extra {
+    display:grid;grid-template-columns:1fr 1fr 1fr;grid-template-rows:100px;
+}
