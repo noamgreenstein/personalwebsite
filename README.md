@@ -1,3 +1,3 @@
 # personalwebsite
 website to be hosted from my machine \
-Visit [noamgreenstein.info](noamgreenstein.info)
+Visit [noamgreenstein.info](https://noamgreenstein.info)
